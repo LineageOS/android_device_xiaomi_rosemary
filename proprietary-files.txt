@@ -1,4 +1,4 @@
-# Unpinned blobs from rosemary-user 12 SP1A.210812.016 V14.0.11.0.TKLMIXM release-keys
+# Unpinned blobs from rosemary-user 12 SP1A.210812.016 V14.0.7.0.TKLMIXM release-keys
 
 # AAL
 vendor/lib64/libaal_cust.so
@@ -1271,7 +1271,7 @@ system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|037d44e408f08
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|ef998601b41eefe3f981bf773fa34b0445f6ad65
 
 # IMS (App) - from plato-user 14 UP1A.230620.001 V816.0.12.0.ULQMIXM release-keys
-system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk
+system_ext/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk|e4bc27e84c86a03f1db24d206f7f153697f9b7f2|959ff0c93ea8ce70ff2ef28495254fe4cb08b155
 
 # IR
 vendor/bin/consumerird
