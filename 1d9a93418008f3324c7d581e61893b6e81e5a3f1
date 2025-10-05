@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "145e8abb_4b8fb205",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-05T08:04:08Z",
+      "side": 0,
+      "message": "You must keep the new vendor SPL. Otherwise, users who upgrade to the build that includes this change will be forced to format data.",
+      "revId": "1d9a93418008f3324c7d581e61893b6e81e5a3f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
