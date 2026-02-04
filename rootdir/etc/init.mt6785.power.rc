@@ -117,5 +117,5 @@ service vendor.hwcomposer-2-2 /vendor/bin/hw/android.hardware.graphics.composer@
     group graphics drmrpc
     capabilities SYS_NICE
     onrestart restart surfaceflinger
-    task_profiles HighPerformance
+    task_profiles ProcessCapacityHigh HighPerformance
     override
