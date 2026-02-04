@@ -111,6 +111,16 @@ on enable-low-power
 on property:sys.boot_completed=1
     trigger enable-low-power
 
+service vendor.gralloc-4-0 /vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
+    class hal animation
+    interface android.hardware.graphics.allocator@4.0::IAllocator default
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+    task_profiles ProcessCapacityHigh HighPerformance
+    override
+
 service vendor.hwcomposer-2-2 /vendor/bin/hw/android.hardware.graphics.composer@2.2-service
     class hal animation
     user system
