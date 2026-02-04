@@ -148,7 +148,6 @@
       "Values": [
         "0",
         "30",
-        "55",
         "100"
       ],
       "DefaultIndex": 0,
@@ -196,12 +195,6 @@
       "Node": "UclampFGMin",
       "Duration": 58,
       "Value": "15"
-    },
-    {
-      "PowerHint": "INTERACTION",
-      "Node": "UclampTAMin",
-      "Duration": 58,
-      "Value": "55"
     },
     {
       "PowerHint": "LAUNCH",
