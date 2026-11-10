@@ -1768,7 +1768,6 @@ vendor/lib/meta_wifi_data.so
 vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/libapmonitor_vendor.so
 vendor/lib64/libconnfem.so
-vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
 vendor/lib64/libwifitest.so
 vendor/lib64/libwpfa.so
 vendor/lib64/meta_wifi_data.so
