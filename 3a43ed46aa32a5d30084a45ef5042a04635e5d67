@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc0d114c_5e1251a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 38570
+      },
+      "writtenOn": "2026-11-15T14:26:35Z",
+      "side": 1,
+      "message": "Marking as WIP as this requires the paired Mali Bifrost r38p1 user-space blobs and kernel 4.19 mali_kbase backport (from fleur/sea) before merging.",
+      "revId": "3a43ed46aa32a5d30084a45ef5042a04635e5d67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
