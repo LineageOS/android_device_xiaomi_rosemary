@@ -90,7 +90,8 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 # Display
 persist.sys.mcd_config_file=/system/etc/mcd_default.conf
 ro.opengles.version=196610
-ro.hardware.egl=meow
+ro.hardware.egl=angle
+ro.hwui.use_vulkan=true
 ro.vendor.composer_version=2.2
 ro.vendor.mtk_dre30_support=1
 ro.vendor.mtk_pq_color_mode=1
